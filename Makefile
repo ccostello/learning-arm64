@@ -3,3 +3,6 @@ hello: hello.o
 
 hello.o: hello.s
 	as -o hello.o hello.s
+
+clean:
+	rm hello hello.o
